@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Контакты</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <header>
+    <h1>Контакты</h1>
+  </header>
+
+  <!-- Навигационное меню -->
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+    <a href="index_356.html"><i class="fas fa-book"></i> Финансовая грамотность</a>
+    <a href="contact.html"><i class="fas fa-address-card"></i> Контакты</a>
+  </nav>
+
+  <!-- Основной контент -->
+  <main>
+    <!-- Контактная информация -->
+    <section class="contact-info">
+      <h2>Свяжитесь с нами</h2>
+      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:support@yourdomain.ru">support@yourdomain.ru</a></p>
+      <p><i class="fas fa-phone"></i> Телефон: +7 (495) 123-45-67</p>
+      <p><i class="fab fa-vk"></i> ВКонтакте: <a href="https://vk.com/yourproject" target="_blank">vk.com/yourproject</a></p>
+      <p><i class="fab fa-telegram"></i> Telegram: <a href="https://t.me/yourproject" target="_blank">@yourproject</a></p>
+      <p><i class="fas fa-map-marker-alt"></i> Адрес: ул. Кооперации, 84, станица Ленинградская</p>
+    </section>
+
+    <!-- Форма обратной связи -->
+    <section class="contact-form">
+      <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <!-- Карта -->
+    <section class="map">
+      <h2>Наше местоположение</h2>
+      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aexample&source=constructor" width="100%" height="400" frameborder="0"></iframe>
+    </section>
+
+    <!-- Часто задаваемые вопросы -->
+    <section class="faq">
+      <h2>Часто задаваемые вопросы</h2>
+
+      <h3>Как добавить новую запись о доходе или расходе?</h3>
+      <p>Перейдите на главную страницу и нажмите кнопку "Добавить запись". Заполните форму и сохраните изменения.</p>
+
+      <h3>Как изменить или удалить существующую запись?</h3>
+      <p>В разделе "Анализ данных" найдите нужную запись и используйте кнопки редактирования или удаления.</p>
+
+      <h3>Как восстановить данные после очистки браузера?</h3>
+      <p>Если вы не делали резервную копию, восстановление данных может быть невозможно. Рекомендуем регулярно сохранять данные.</p>
+    </section>
+  </main>
+
+  <!-- Подвал -->
+  <footer>
+    <p>&copy; 2025 МБОДО СЮТ "Станция юных техников". Все права защищены.</p>
+  </footer>
+
+</body>
+</html>

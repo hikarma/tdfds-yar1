@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Учет личных финансов</title>
+  <meta name="description" content="Веб-приложение для учета личных финансов, с анализом доходов и расходов.">
+  <meta name="keywords" content="учет финансов, доходы, расходы, анализ данных">
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Учет личных финансов</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a class="nav-btn" href="index.html">Главная</a></li>
+  </ul>
+</nav>
+
+<section id="analysis">
+  <h2>Анализ данных</h2>
+  <canvas id="financialChart" style="max-width:700px; margin:auto;"></canvas>
+</section>
+
+<h2>История операций</h2>
+<table id="recordsTable" class="display nowrap" style="width:100%">
+  <thead>
+    <tr>
+      <th>Тип</th>
+      <th>Сумма</th>
+      <th>Категория</th>
+      <th>Дата</th>
+      <th>Описание</th>
+      <th>Действия</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<footer>
+  <p>© 2025 МБОДО СЮТ "Станция юных техников"</p>
+</footer>
+
+<button class="support-button" onclick="alert('Обратитесь в поддержку: support@yourdomain.ru')">Поддержка</button>
+
+<!-- Скрипты -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.html5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

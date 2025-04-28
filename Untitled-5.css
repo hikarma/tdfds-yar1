@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.btn-group a {
+  padding: 12px 20px;
+  background-color: white;
+  color: #4CAF50;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn-group a:hover {
+  background-color: #ffffffcc;
+  border-color: #388e3c;
+  color: #2e7d32;
+}
+
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+ul {
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+.tips {
+  background-color: #eafaf1;
+  border-left: 6px solid #4CAF50;
+  padding: 15px 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.tips li::before {
+  content: "💡 ";
+}
+
+.tips h3 {
+  color: #2e7d32;
+}
+
+.social-links {
+  margin-top: 25px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a i {
+  margin-right: 8px;
+}
+
+.social-links a:hover {
+  background-color: #388e3c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #333;
+  color: white;
+}
+
+.support-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.support-button:hover {
+  background-color: #e64a19;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0 10px;
+}
+
+header, footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+nav ul li {
+  margin: 5px 10px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  background: white;
+  color: #4CAF50;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.support-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-size: 1.1em;
+  cursor: pointer;
+  z-index: 1000;
+}
